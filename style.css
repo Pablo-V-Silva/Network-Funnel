@@ -49,4 +49,22 @@ main {
     padding-top: 2rem;
   }
   
+  .formContainer {
+    width: 100%;
+    align-self: flex-start;
+  }
+
+
+
+  /* Tentativo di animazione */
+  .fade-in {
+  opacity: 0;
+  transform: translate(10vh);
+  transition: all 1s cubic-bezier(0.215, 0.610, 0.355, 1);
+}
+
+.fade-in.in-page {
+  opacity: 1;
+  transform: translate(0vh);
+}
 }
